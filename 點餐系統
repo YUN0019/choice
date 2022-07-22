@@ -1,0 +1,38 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+
+     int choice;   //為輸入餐點號碼
+
+    cout <<"目前有以下餐點供選擇"<<endl;
+    cout <<"1.大麥克套餐"<<endl;
+    cout <<"2.雙層起司漢堡"<<endl;
+    cout <<"3.麥克雞塊"<<endl;
+    cout <<"4.兒童餐"<<endl;
+
+    cout <<"請輸入您要的餐點號碼："<<endl;
+    cin >>choice;
+    cout<<endl;    //空行
+
+
+
+    if (  choice == 1)  //套餐1
+        cout <<"這樣一共是："<< 55;
+    else if ( chice == 2)
+        cout <<"這樣一共是："<< 65;
+    else if ( choice == 3)
+        cout <<"這樣一共是："<< 45;
+    else if ( choice == 4)
+        cout <<"這樣一共是："<< 60;
+    else
+        cout <<"你可能輸入錯誤..請重新輸入："<<endl;
+    cout <<endl;
+
+    return 0;
+
+
+}
